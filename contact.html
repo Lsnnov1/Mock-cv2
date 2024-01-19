@@ -1,9 +1,83 @@
-<h1>Contact Me:</h1>
-<p>
-    Email: cavonrandolph48@gmail.com <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <hr>
+    <form>
+        <!-- Textbox Info Gathering -->
+        <label>
+            Name:
+        <input 
+        type="text" 
+        name="text" 
+        placeholder="Enter your name"
+        max="15" 
+        required>
+        <br>
+        </label>
+        <!-- Email -->
+        <label>
+            Email:
+            <input 
+            type="email" 
+            name="email" 
+            placeholder="Enter your email"
+            required>
+            <br>
+        </label>
+        <!-- Org and Role -->
+        <label>
+            Organization:
+            <input type="text" name="Company" placeholder="Enter Organization" max="20" required> <br>
+        </label>
+        <label>
+            Role:
+            <input type="text" name="Role" placeholder="Ex. Algorithim Specialist"><br>
+        </label>
+        <!-- Using the Select Dropdown Boxes  -->
+        <label>
+            Reason for Contact:
+        <select name="reason">
+            <option>Job Offer</option>
+            <option>Inquiry</option>
+            <option>Feedback</option>
+            <option>Other</option>  
+        </select>
+        <br>
+        </label>
+        <hr>
+        <!-- Creating the Messages -->
+        <label>
+        Message: 
+        <br>
+            <textarea 
+            name="essay" 
+            cols="30" 
+            rows="10" 
+            minlength="5" 
+            maxlength="150"
+            placeholder="Leave a message">
+        </textarea>
+        </label>
+        <br>
+        <!-- Buttons -->
+        <button type="reset">Clear Form</button>
+        <button type="submit">Submit Form</button>
+    </form>
 
-</p>
+    <!-- <p> -->
+        <!-- Email: cavonrandolph48@gmail.com <br> -->
+        <!-- Phone: 301-583-6135 -->
+    <!-- </p> -->
+  
+    
+    
+</body>
+</html>
 
-<p>
-    Phone: 301-583-6135
-</p>
+
