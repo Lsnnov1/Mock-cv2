@@ -1,4 +1,6 @@
-
+* {
+    font-family:'Exo 2', sans-serif;
+}
 A {
     text-decoration: none;
     color: #f6ead4;
@@ -49,6 +51,9 @@ input {
     border: solid 0.1rem;
     border-color: #f6ead4;
     background-color: #161A30;
+    color: aliceblue;
+}
+img {
     color: aliceblue;
 }
 
