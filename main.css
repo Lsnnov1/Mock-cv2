@@ -1,16 +1,44 @@
 * {
     font-family:'Exo 2', sans-serif;
 }
-A {
+/* Navbar */
+
+nav a {
     text-decoration: none;
     color: #f6ead4;
     font-size: 1.2rem;
-    
 
+}
+nav a:hover{
+    color: rgb(253, 253, 253);
+}
+    
+/* Attributes */
+
+a {
+    color: #f6ead4;
+    font-size: 1.1rem;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: #9EC8B9;
+}
+
+/* Body */
+html {
+    border: solid aliceblue 1px;
+    padding: 15px;
+    margin: 15px;
+    
 }
 
 body {
     background-color: #161A30;
+    
     
 }
 
@@ -22,7 +50,6 @@ h1 {
 h2 {
     color: aliceblue;
     font-weight: 500;
-
 }
 p {
     color: aliceblue;
@@ -39,6 +66,7 @@ h3 {
 form {
     color: aliceblue;
     
+    
 }
 button {
     background-color: #f6ead4;
@@ -54,6 +82,8 @@ input {
     color: aliceblue;
 }
 img {
-    color: aliceblue;
+    
+    border: solid #f6ead4;
+    border-radius: 25%;
 }
 
