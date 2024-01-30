@@ -12,74 +12,74 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <ul>
-            <li><a href="./index.html">Home</a><br></li>
-            <li> <a href="./contact.html">Contact Me</a></li>
-        </ul>
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contact Me</a>
     </nav>
     <h1>Contact Me</h1>
     <hr>
-    <form>
-        <!-- Textbox Info Gathering -->
-        <label>
-            Name:
-        <input 
-        type="text" 
-        name="text" 
-        placeholder="Enter your name"
-        max="15" 
-        required>
-        <br>
-        </label>
-        <!-- Email -->
-        <label>
-            Email:
+    <section class="form-class">
+        <form>
+            <!-- Textbox Info Gathering -->
+            <label1>
+                Name:
             <input 
-            type="email" 
-            name="email" 
-            placeholder="Enter your email"
+            type="text" 
+            name="text" 
+            placeholder="Enter your name"
+            max="15" 
             required>
             <br>
-        </label>
-        <!-- Org and Role -->
-        <label>
-            Organization:
-            <input type="text" name="Company" placeholder="Enter Organization" max="20" required> <br>
-        </label>
-        <label>
-            Role:
-            <input type="text" name="Role" placeholder="Ex. Algorithim Specialist"><br>
-        </label>
-        <!-- Using the Select Dropdown Boxes  -->
-        <label>
-            Reason for Contact:
-        <select name="reason">
-            <option>Job Offer</option>
-            <option>Inquiry</option>
-            <option>Feedback</option>
-            <option>Other</option>  
-        </select>
-        <br>
-        </label>
-        <hr>
-        <!-- Creating the Messages -->
-        <label>
-        Message: 
-        <br>
-            <textarea 
-            name="essay" 
-            cols="30" 
-            rows="10" 
-            minlength="5" 
-            maxlength="150"
-            placeholder="Leave a message">
-        </textarea>
-        </label>
-        <br>
-        <!-- Buttons -->
-        <button type="reset">Clear Form</button>
-        <button type="submit">Submit Form</button>
-    </form>
+            </label1>
+            <!-- Email -->
+            <label2>
+                Email:
+                <input 
+                type="email" 
+                name="email" 
+                placeholder="Enter your email"
+                required>
+                <br>
+            </label2>
+            <!-- Org and Role -->
+            <label3>
+                Organization:
+                <input type="text" name="Company" placeholder="Enter Organization" max="20" required> <br>
+            </label3>
+            <label4>
+                Role:
+                <input type="text" name="Role" placeholder="Ex. Algorithim Specialist"><br>
+            </label4>
+            <!-- Using the Select Dropdown Boxes  -->
+            <label5>
+                Reason for Contact:
+            <select name="reason">
+                <option>Job Offer</option>
+                <option>Inquiry</option>
+                <option>Feedback</option>
+                <option>Other</option>  
+            </select>
+            <br>
+            </label5>
+            <hr>
+            <!-- Creating the Messages -->
+            <label6>
+            Message: 
+            <br>
+            <textarea
+                name="essay" 
+                cols="55" 
+                rows="15" 
+                minlength="0" 
+                maxlength="150"
+                placeholder="Leave a message">
+            </textarea>
+            </label6>
+            <br>
+            <!-- Buttons -->
+            <button class="text-button" type="reset">Clear Form</button>
+            <button class="text-button" type="submit">Submit Form</button>
+        </form>
+    </section>
 
     <!-- <p> -->
         <!-- Email: cavonrandolph48@gmail.com <br> -->
